@@ -1,0 +1,73 @@
+.q1{
+	position:absolute;
+	background-color:green;
+	width:250px;
+	height:100px;
+	opacity:0.3;
+}
+.q2{
+	position:absolute;
+	background-color:green;
+	width:250px;
+	height:200px;
+	left:1340px;
+	opacity:0.3;
+	box-shadow:2px;
+}
+.q3{
+	position:absolute;
+	background-color:green;
+	width:1040px;
+	height:100px;
+	left:280px;
+	top:8px;
+	opacity:0.3;
+}
+.q4{
+	position:absolute;
+	background-color:green;
+	width:250px;
+	height:340px;
+	top:130px;
+	opacity:0.3;
+}
+.q5{
+	position:absolute;
+	background-color:green;
+	width:1040px;
+	height:500px;
+	top:130px;
+	opacity:0.3;
+	left:280px;
+}
+.q6{
+	position:absolute;
+	background-color:green;
+	width:250px;
+	height:400px;
+	left:1340px;
+	opacity:0.3;
+	top:230px;
+}
+.q7{
+	position:absolute;
+	background-color:green;
+	width:250px;
+	height:135px;
+	opacity:0.1;
+	top:495px;
+}
+.q8{
+	position:absolute;
+	background-color:blue;
+	width:1000px;
+	height:350px;
+	top:260px;
+	opacity:0.2;
+	left:300px;
+}
+@font-face {
+font-family:glyphicons-halflings-regular; /* имя шрифта для CSS правил */
+src:local("glyphicons-halflings-regular"), /* проверяем наличие шрифта в ОС пользователя */
+url(fonts/glyphicons-halflings-regular.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
